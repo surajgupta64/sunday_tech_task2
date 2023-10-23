@@ -48,6 +48,7 @@ const LoginPage = () => {
         progress: undefined,
         theme: "colored",
       });
+      navigate("user-list")
     } else {
       toast.error("😥 So sad login failed!", {
         position: "top-right",
